@@ -50,24 +50,24 @@ header nav ul li {
 }
 
 .hero {
-  height: 600px;
+  height: 400px;
   width: 100%;
   background-image: url(./images/hero5.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
-  text-align: center;
   color: #f8f2f2;
   text-shadow: 2px 2px black;
-  padding: 200px 100px 0px 100px;
+  padding: 100px 100px 0px 100px;
 }
 
 .hero p {
   padding: 20px;
+  margin-bottom: 15px;
   color: var(--text);
   font-weight: bold;
-  color: var(--link);
   text-align: center;
+  color: var(--link);
 }
 
 .hero img {
@@ -93,7 +93,7 @@ header nav ul li {
   width: 80%;
   margin: 15px 10px 10px 20px;
   padding: 5px 5px 5px 5px;
-  
+
   flex-wrap: wrap;
 }
 
