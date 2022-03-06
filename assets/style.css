@@ -2,19 +2,17 @@
   --primary-color: #7996bf;
   --secondary-color: #db4e0b;
   --text: #f8f2f2;
-  --link: #4ee040;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: var(--link);
 }
 
 body {
   font-family: "Courier New", Courier, monospace;
-  background: var(--secondary-color);
+  background: var(--primary-color);
 }
 
 header {
@@ -22,24 +20,15 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   background: var(--primary-color);
-  padding: 15px 15px;
+  padding: 10px 15px 5px 15px;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  background-image: url(./images/hero3.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 80%;
-}
-
-header img {
-  height: 100px;
-  width: 150px;
 }
 
 header h1 {
-  font-size: 50px;
-  padding: 30px 0 0 0
+  font-size: 45px;
+  padding: 5px 0 0 0;
 }
 
 header nav ul {
@@ -49,17 +38,11 @@ header nav ul {
   justify-content: space-between;
   list-style: none;
   font-size: 30px;
-  border-right: #4ee040;
 }
 
 header nav ul li {
   padding: 15px 15px;
   color: var(--link);
-}
-
-footer {
-  background: var(--primary-color);
-  padding: 30px;
 }
 
 .hero {
@@ -70,7 +53,6 @@ footer {
   text-align: center;
   background-position: 80%;
   padding: 100px;
- 
 }
 
 .hero p {
@@ -85,19 +67,33 @@ footer {
 }
 
 .main {
+  width: 90%;
+  display: inline-block;
+}
+
+.about,
+.my-projects {
   width: 100%;
-  margin: 0 auto;
-  display: ;
+  margin: 15px 10px 10px 20px;
+  padding: 5px 5px 5px 5px;
+  display: column;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
+.projects-examples {
+  display: flex;
+}
+
+.my-projects img {
+  height: 200px;
+  width: 300px;
+}
 
 .contact {
   display: flex;
-  flex-direction: column;
-  padding: 10px 0 5px 0;
-  margin-top: 5px;
+  flex-direction: flex;
+  justify-content: space-evenly;
 }
 
 .contact a {
