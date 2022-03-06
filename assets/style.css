@@ -31,6 +31,10 @@ header h1 {
   padding: 5px 0 0 0;
 }
 
+header img {
+  height: 45px;
+  width: 45px;
+}
 header nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -46,13 +50,16 @@ header nav ul li {
 }
 
 .hero {
-  background-image: url(./images/hero3.jpg);
+  height: 600px;
+  width: 100%;
+  background-image: url(./images/hero5.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
   text-align: center;
-  background-position: 80%;
-  padding: 100px;
+  color: #f8f2f2;
+  text-shadow: 2px 2px black;
+  padding: 200px 100px 0px 100px;
 }
 
 .hero p {
@@ -60,6 +67,7 @@ header nav ul li {
   color: var(--text);
   font-weight: bold;
   color: var(--link);
+  text-align: center;
 }
 
 .hero img {
@@ -71,21 +79,25 @@ header nav ul li {
   display: inline-block;
 }
 
+.main h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.about p {
+  text-align: center;
+}
+
 .about,
-.my-projects {
-  width: 100%;
+.projects {
+  width: 80%;
   margin: 15px 10px 10px 20px;
   padding: 5px 5px 5px 5px;
-  display: column;
+  
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 
-.projects-examples {
-  display: flex;
-}
-
-.my-projects img {
+.projects img {
   height: 200px;
   width: 300px;
 }
