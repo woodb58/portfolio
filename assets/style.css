@@ -13,6 +13,8 @@
 body {
   font-family: "Courier New", Courier, monospace;
   background: var(--primary-color);
+  padding: 3px;
+  margin: 3px;
 }
 
 header {
@@ -74,40 +76,26 @@ header nav ul li {
   position: relative;
 }
 
-.main {
-  width: 90%;
-  display: inline-block;
+.about {
+  display: flex;
+  flex: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px;
 }
 
-.main h2 {
-  text-align: center;
-  text-decoration: underline;
+.about img {
+  height: 100px;
+  width: 100px;
 }
 
 .about p {
-  text-align: center;
+  max-width: 800px;
+  font-size: 20px;
 }
 
-.about,
 .projects {
-  width: 80%;
-  margin: 15px 10px 10px 20px;
-  padding: 5px 5px 5px 5px;
-
-  flex-wrap: wrap;
-}
-
-.projects img {
-  height: 200px;
-  width: 300px;
-}
-
-.contact {
   display: flex;
-  flex-direction: flex;
-  justify-content: space-evenly;
-}
-
-.contact a {
-  color: var(--link);
+  justify-content: center;
+  margin: 25px 40px;
 }
