@@ -3,6 +3,10 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
         <title>Brian Wood</title>
         <link rel="stylesheet" href="./assets/style.css" />
     </head>
@@ -14,13 +18,13 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#about-me">About Me</a>
+                        <a href="#about-me">About</a>
                     </li>
                     <li>
                         <a href="#my-work">My Work</a>
                     </li>
                     <li>
-                        <a href="#contact-me">Contact Me</a>
+                        <a href="#contact">Contact Me</a>
                     </li>
                 </ul>
             </nav>
@@ -28,23 +32,7 @@
 
         <!-- hero  -->
         <section class="hero">
-            <div>
-                <img src="./assets/images/avatar.PNG" alt="A picture of Brian Wood">
-            </div>
-            <div class="quote">
-                <blockquote>
-                    <p id="quote-text">
-                      “If you think math is hard, try web design.”
-                      Trish Parr
-                      <br>
-                      “Design is not just what it looks like and feels like. Design is how it works.”
-                      Steve Jobs
-                      <br>
-                      “If you think good design is expensive, you should look at the cost of bad design.”
-                      Ralf Speth
-                    </p>
-                </blockquote>
-            </div>
+    
         </section>
 
         <!-- about me -->
@@ -54,11 +42,13 @@
             </div>
             
             <div>
+                <img src="./assets/images/me1.jpg" alt="">
+            </div>
+            <div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend enim at eros finibus luctus. Integer dapibus ex consequat risus pulvinar cursus. Vivamus sit amet mauris congue, tincidunt massa lacinia, varius purus. Curabitur tincidunt fringilla hendrerit. Morbi eleifend purus sed nunc laoreet sollicitudin. Aenean convallis hendrerit condimentum. Maecenas semper, sem quis iaculis gravida, leo turpis ullamcorper lectus, quis placerat quam neque in arcu. Ut interdum odio sed eros ornare ultricies. Sed imperdiet non mi ac eleifend. In pretium, risus quis feugiat commodo, lacus ex pulvinar libero, non rutrum nibh tortor et magna.
-                    <br><br>
-                    Donec blandit aliquet rutrum. Donec et pharetra nulla. Nullam ultrices nisi vitae luctus volutpat. Nunc vitae magna ultricies, vulputate erat vitae, lacinia ipsum. Ut eu nisl at magna vulputate sagittis. Etiam eros orci, dictum sed risus in, iaculis eleifend diam. Ut dapibus nulla sit amet mauris tristique viverra. Mauris varius sed ligula a accumsan. Praesent feugiat euismod velit, eu vestibulum libero scelerisque sed. Aliquam finibus turpis arcu, nec convallis dui semper id. Ut nisl lacus, molestie ac ornare sit amet, suscipit mollis sapien.
                 </p>
+                    
             </div>
         </section>
 
@@ -91,26 +81,25 @@
         </section>
 
         <!-- contact info section -->
-        <section id="contact-me">
-            <div class="title"><h2>Contact Me</h2></div>
-            <div class="contact-info">
-                <div id="contact-list">
-                    <ul>
-                        <li>
-                            <a href="woodb58@gmail.com">Email</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/woodb58" target="_blank">GitHub</a>
-                        </li>
-                        <li>
-                            <a href="tel:5555555555">555-555-5555</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <footer>
-
+        <footer id="contact" class="contact">
+          <h2 class="title">Contact Me:</h2>
+              <div class="contact-info">    
+           <div>
+            <ul>
+                <li>
+                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/woodb58">GitHub: woodb58</a>
+                </li>
+                 <li>
+                    <i class="fa-solid fa-square-phone-flip"></i>
+                    <a href="tel:5555555555">Phone: 555-555-5555</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:woodb58@gmail.com">Email: woodb58@gmail.com</a>
+                </li>
+            </ul>
+           </div>
         </footer>
     </body>
 </html>
