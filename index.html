@@ -1,103 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style.css" />
-    <title>woodb58</title>
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Brian Wood</title>
+        <link rel="stylesheet" href="./assets/style.css" />
+    </head>
 
-  <body>
-    <header>
-      <h1><a href="/"></a>Brian Wood</h1>
+    <body>
+        <!-- header and nav  -->
+        <header>
+            <div><h1>Brian Wood</h1></div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#my-work">My Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-      <nav>
-        <ul>
-          <li>
-            <a href="#about" title="about">About</a>
-          </li>
-          <li>
-            <a href="#projects" title="projects">Projects</a>
-          </li>
-          <li>
-            <a href="#contact" title="contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+        <!-- hero  -->
+        <section class="hero">
+            <div>
+                <img src="./assets/images/avatar.PNG" alt="A picture of Brian Wood">
+            </div>
+            <div class="quote">
+                <blockquote>
+                    <p id="quote-text">
+                      “If you think math is hard, try web design.”
+                      Trish Parr
+                      <br>
+                      “Design is not just what it looks like and feels like. Design is how it works.”
+                      Steve Jobs
+                      <br>
+                      “If you think good design is expensive, you should look at the cost of bad design.”
+                      Ralf Speth
+                    </p>
+                </blockquote>
+            </div>
+        </section>
 
-    <section class="hero">
-      <div class="hero-txt">
-        <p>
-          “It’s not how good you are, it’s how good you want to be” -Paul Arden
-        </p>
-        <p>
-          “Design is not just what it looks like and feels like. Design is how
-          it works.” -Steve Jobs
-        </p>
-        <p>
-          “If you think good design is expensive, you should look at the cost of
-          bad design.” -Ralf Speth
-        </p>
-      </div>
-    </section>
+        <!-- about me -->
+        <section id="about-me" class="about-me">
+            <div class="title">
+                <h2>About Me</h2>
+            </div>
+            
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend enim at eros finibus luctus. Integer dapibus ex consequat risus pulvinar cursus. Vivamus sit amet mauris congue, tincidunt massa lacinia, varius purus. Curabitur tincidunt fringilla hendrerit. Morbi eleifend purus sed nunc laoreet sollicitudin. Aenean convallis hendrerit condimentum. Maecenas semper, sem quis iaculis gravida, leo turpis ullamcorper lectus, quis placerat quam neque in arcu. Ut interdum odio sed eros ornare ultricies. Sed imperdiet non mi ac eleifend. In pretium, risus quis feugiat commodo, lacus ex pulvinar libero, non rutrum nibh tortor et magna.
+                    <br><br>
+                    Donec blandit aliquet rutrum. Donec et pharetra nulla. Nullam ultrices nisi vitae luctus volutpat. Nunc vitae magna ultricies, vulputate erat vitae, lacinia ipsum. Ut eu nisl at magna vulputate sagittis. Etiam eros orci, dictum sed risus in, iaculis eleifend diam. Ut dapibus nulla sit amet mauris tristique viverra. Mauris varius sed ligula a accumsan. Praesent feugiat euismod velit, eu vestibulum libero scelerisque sed. Aliquam finibus turpis arcu, nec convallis dui semper id. Ut nisl lacus, molestie ac ornare sit amet, suscipit mollis sapien.
+                </p>
+            </div>
+        </section>
 
-    <section id="about" class="about">
-      <div class="about-container">
-        <div class="title">
-          <h2>About Me</h2>
-        </div>
-        <div>
-          <img src="./assets/images/me1.jpg" alt="" />
-        </div>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
-            repellendus eligendi quidem a, est nisi neque. Cum ducimus quas quis
-            commodi. Facere repudiandae nostrum fuga repellat modi mollitia,
-            necessitatibus dolore.
-          </p>
-        </div>
-      </div>
-    </section>
+        <!-- my work -->
+        <section id="my-work" class="my-work">
+            <div class="title"><h2>My Work</h2></div>
+            <div class = "grid-wrapper">
+                <div class="grid">
 
-    <section id="projects" class="projects">
-      <div class="main-image">
-        <a href="https://github.com/woodb58/run-buddy">
-          <img src="./assets/images/run-buddy.png" alt=""
-        /></a>
-        <div>
-          <p>
-            Run Buddy <br />
-            <span>HTML/CSS/Flexbox</span>
-          </p>
-        </div>
-      </div>
+                    <a href="https://woodb58.github.io/run-buddy/" target="_blank" class="run-buddy">
+                        <div class="project-label">
+                            <h3>Run Buddy</h3>
+                            <p>HTML/CSS</p>
+                        </div>
+                    </a>
+                    <a href="https://woodb58.github.io/horiseon-challenge-uw/" target="_blank" class="horiseon">
+                        <div class="project-label">
+                            <h3>Horiseon</h3>
+                            <p>HTML/CSS</p>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=rTgj1HxmUbg" target="_blank" class="coming-soon">
+                        <div class="project-label">
+                            <h3>More Coming Soon</h3>
+                            <p>HTML/CSS/JavaScript</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-      <div class="sub-image">
-        <a href="https://github.com/woodb58/horiseon-challenge-uw">
-          <img src="./assets/images/horiseon.png" alt=""
-        /></a>
-        <div>
-          <p>
-            Horiseon <br />
-            <span>HTML/CSS/Flexbox</span>
-          </p>
-        </div>
-      </div>
+        <!-- contact info section -->
+        <section id="contact-me">
+            <div class="title"><h2>Contact Me</h2></div>
+            <div class="contact-info">
+                <div id="contact-list">
+                    <ul>
+                        <li>
+                            <a href="woodb58@gmail.com">Email</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/woodb58" target="_blank">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="tel:5555555555">555-555-5555</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer>
 
-      <div class="sub-image">
-        <a href="https://www.youtube.com/watch?v=rTgj1HxmUbg">
-          <img src="./assets/images/under-construction.png" alt=""
-        /></a>
-        <div>
-          <p>
-            More Coming Soon <br />
-            <span>Full Stack</span>
-          </p>
-        </div>
-      </div>
-    </section>
-  </body>
+        </footer>
+    </body>
 </html>
