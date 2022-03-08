@@ -1,113 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
-        <title>Brian Wood</title>
-        <link rel="stylesheet" href="./assets/style.css" />
-    </head>
+    <title>Brian Wood</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
 
-    <body>
-        <!-- header and nav  -->
-        <header>
-            
-            <div>
-                <h1>Brian Wood</h1>
+  <body>
+    <!-- header and nav  -->
+    <header>
+      <div>
+        <h1>Brian Wood</h1>
+      </div>
+
+      <div>
+        <img src="./assets/images/av-big.PNG" alt="" />
+      </div>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#about-me">About</a>
+          </li>
+          <li>
+            <a href="#my-work">My Work</a>
+          </li>
+          <li>
+            <a href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- hero  -->
+    <section class="hero">
+      <div>
+        <h2>Full Stack Student</h2>
+      </div>
+    </section>
+
+    <!-- about me -->
+    <section id="about-me" class="about-me">
+      <div class="title">
+        <h2>About Me</h2>
+      </div>
+      <div class="me">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo nobis
+          blanditiis consectetur animi, deleniti aliquam? Tempore vel esse sit
+          asperiores ut consectetur nam veritatis nemo, ipsam, cumque eligendi
+          enim temporibus.
+        </p>
+      </div>
+    </section>
+
+    <!-- my work -->
+    <section id="my-work" class="my-work">
+      <div class="title"><h2>My Work</h2></div>
+      <div class="image-grid">
+          <a
+            href="https://woodb58.github.io/run-buddy/"
+            target="_blank"
+            id="run-buddy"
+            class="image-grid-col-2 image-grid-row-2"
+          >
+            <div class="project-label">
+              <h3>Run Buddy</h3>
+              <p>HTML/CSS</p>
             </div>
-
-            <div>
-                <img src="./assets/images/me1.jpg" alt="">
+          </a>
+          <a
+            href="https://woodb58.github.io/horiseon-challenge-uw/"
+            target="_blank"
+            class="horiseon"
+          >
+            <div class="project-label">
+              <h3>Horiseon</h3>
+              <p>HTML/CSS</p>
             </div>
-
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about-me">About</a>
-                    </li>
-                    <li>
-                        <a href="#my-work">My Work</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact Me</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-
-        <!-- hero  -->
-        <section class="hero">
-            <div>
-                <h2>Full Stack Student</h2>    
+          </a>
+          <a
+            href="https://www.youtube.com/watch?v=rTgj1HxmUbg"
+            target="_blank"
+            class="coming-soon"
+          >
+            <div class="project-label">
+              <h3>More Coming Soon</h3>
+              <p>HTML/CSS/JavaScript</p>
             </div>
-        </section>
-
-        <!-- about me -->
-        <section id="about-me" class="about-me">
-            <div class="title">
-                <h2>About Me</h2>
+          <a
+            href="https://www.youtube.com/watch?v=rTgj1HxmUbg"
+            target="_blank"
+            class="coming-soon"
+          >
+            <div class="project-label">
+              <h3>More Coming Soon</h3>
+              <p>HTML/CSS/JavaScript</p>
             </div>
-        <div class="me">
-            <div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo nobis blanditiis consectetur animi, deleniti aliquam? Tempore vel esse sit asperiores ut consectetur nam veritatis nemo, ipsam, cumque eligendi enim temporibus.
-                </p> 
-            </div>  
-        </div>
-        </section>
-
-        <!-- my work -->
-        <section id="my-work" class="my-work">
-            <div class="title"><h2>My Work</h2></div>
-            <div class = "grid-wrapper">
-                <div class="grid">
-                    <a href="https://woodb58.github.io/run-buddy/" target="_blank" class="run-buddy">
-                        <div class="project-label">
-                            <h3>Run Buddy</h3>
-                            <p>HTML/CSS</p>
-                        </div>
-                    </a>
-                    <a href="https://woodb58.github.io/horiseon-challenge-uw/" target="_blank" class="horiseon">
-                        <div class="project-label">
-                            <h3>Horiseon</h3>
-                            <p>HTML/CSS</p>
-                        </div>
-                    </a>
-                    <a href="https://www.youtube.com/watch?v=rTgj1HxmUbg" target="_blank" class="coming-soon">
-                        <div class="project-label">
-                            <h3>More Coming Soon</h3>
-                            <p>HTML/CSS/JavaScript</p>
-                        </div>
-                    </a>
-                </div>
+          <a href="https://www.youtube.com/watch?v=rTgj1HxmUbg"
+            target="_blank"
+            class="coming-soon">
+            <div class="project-label">
+              <h3>More Coming Soon</h3>
+              <p>HTML/CSS/JavaScript</p>
             </div>
-        </section>
+          </a>
+      </div>
+    </section>
 
-        <!-- contact info section -->
-        <footer id="contact" class="contact">
-          <h2 class="title">Contact Me</h2>
-              <div class="contact-info">    
-        
-            <div>
-            <ul>
-                 <li>
-                    <i class="fa-brands fa-github"></i>
-                    <a href="https://github.com/woodb58">GitHub: woodb58</a>
-                    </li>
-                     <li>
-                        <i class="fa-solid fa-square-phone-flip"></i>
-                        <a href="tel:5555555555">Phone: 555-555-5555</a>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-envelope"></i>
-                        <a href="mailto:woodb58@gmail.com">Email: woodb58@gmail.com</a>
-                    </li>
-            
-            </ul>
-           </div>
-        </footer>
-    </body>
+    <!-- contact info section -->
+    <footer id="contact" class="contact">
+      <h2 class="title" id="contact-me">Contact Me</h2>
+
+      <div class="info">
+        <i class="fa-brands fa-github"></i>
+        <a href="https://github.com/woodb58">GitHub: woodb58</a>
+      </div>
+      <div class="info">
+        <i class="fa-solid fa-square-phone-flip"></i>
+        <a href="tel:5555555555">Phone: 555-555-5555</a>
+      </div>
+      <div class="info">
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:woodb58@gmail.com">Email: woodb58@gmail.com</a>
+      </div>
+    </footer>
+  </body>
 </html>
