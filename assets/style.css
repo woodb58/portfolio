@@ -1,7 +1,8 @@
 :root {
-  --primary: #474343;
-  --secondary: #81848f;
-  --alt: #EAAD06;
+  --primary: #ececec;
+  --secondary: #385170;
+  --alt: #142d4c;
+  --shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 * {
@@ -29,27 +30,29 @@ header {
 header img {
   height: 100px;
   width: auto;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--shadow);
 }
 
 header h1 {
   color: var(--alt);
   font-size: 40px;
   font-weight: bold;
-  background-color: var(--primary);
   padding: 10px;
-  border: 5px solid var(--alt);
+  text-shadow: var(--shadow);
 }
 
 header img {
   padding-top: 10px;
   padding: 10px;
+  box-shadow: var(--shadow);
   border-radius: 50%;
 }
 
 header a {
   text-decoration: none;
   color: var(--secondary);
+  border-radius: 15px;
+  box-shadow: var(--shadow);
 }
 
 header nav ul {
@@ -91,9 +94,11 @@ header nav ul li a:hover {
 .hero h2 {
   position: absolute;
   bottom: 5px;
-  right: 1px;
+  right: 5px;
   background-color: var(--alt);
+  border-radius: 10px;
   font-size: 40px;
+  text-shadow: var(--shadow);
 }
 
 /* hero end */
@@ -103,6 +108,7 @@ header nav ul li a:hover {
   border-right: 5px solid var(--alt) ;
   min-height: 100%;
   text-align: right;
+  text-shadow: var(--shadow);
   padding-right: 40px;
   min-width: 20%;
   max-width: 20%;
@@ -119,20 +125,19 @@ header nav ul li a:hover {
 /* about me */
 .about-me {
   display: flex;
-}.about-me h2 {
 }
 
-
-  
 .me {
   justify-content: center;
   padding: 30px 20px 20px 20px;
 }
 
+
 .me p {
   text-align: center;
   font-size: 20px;
   line-height: 1.6;
+  text-shadow: var(--shadow);
 }
 /* about me end */
 
@@ -218,6 +223,7 @@ header nav ul li a:hover {
 .info a {
   color: black;
   font-size: 20px;
+  text-shadow: var(--shadow);
 }
 /* contact styling end */
 
