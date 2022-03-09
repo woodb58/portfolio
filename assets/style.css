@@ -1,7 +1,7 @@
 :root {
-  --primary: #000000;
+  --primary: #474343;
   --secondary: #81848f;
-  --alt: #09ee68;
+  --alt: #EAAD06;
 }
 
 * {
@@ -26,20 +26,17 @@ header {
   padding: 20px 20px 10px 20px;
 }
 
-header div {
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-}
-
 header img {
   height: 100px;
   width: auto;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 header h1 {
   color: var(--alt);
   font-size: 40px;
   font-weight: bold;
-  background-color: var(--secondary);
+  background-color: var(--primary);
   padding: 10px;
   border: 5px solid var(--alt);
 }
@@ -103,13 +100,13 @@ header nav ul li a:hover {
 
 /* utility styling */
 .title {
-  border-right: 5px solid var(--alt);
-  border
+  border-right: 5px solid var(--alt) ;
   min-height: 100%;
   text-align: right;
   padding-right: 40px;
   min-width: 20%;
   max-width: 20%;
+  margin: 10px 0;
 }
 
 .title h2 {
@@ -122,7 +119,10 @@ header nav ul li a:hover {
 /* about me */
 .about-me {
   display: flex;
+}.about-me h2 {
 }
+
+
   
 .me {
   justify-content: center;
@@ -187,13 +187,13 @@ header nav ul li a:hover {
 }
 
 .coming-soon {
-  background-image: url("./images/under-construction.png");
+  background-image: url("./images/coming-soon2.gif");
 }
 
 .project-label {
   position: relative;
   float: right;
-  background-color: rgb(52, 243, 13);
+  background-color: var(--alt);
   color: var(--primary);
   padding: 10px;
   font-size: 12px;
@@ -205,20 +205,58 @@ header nav ul li a:hover {
 .contact {
   display: flex;
   justify-content: space-between;
+  padding: 10px 0;
+}
+
+.contact .title {
+  color: black;
 }
 
 .info {
-  padding: 4px 15px 0 0;
+  padding: 10px 15px 0 0;
 }
 .info a {
-  color: var(--alt);
+  color: black;
+  font-size: 20px;
 }
 /* contact styling end */
 
 
-@media screen {
-  .image-grid {
-    --num-cols
-    --row-height
+@media screen and (max-width: 780px) {
+  .title {
+    border-right: none;
+    text-decoration: underline var(--alt);
+    min-height: none;
+    padding-right: none;
+    padding: 0px 5px 0px 5px;
+    margin: 0px, 2px, 0px, 2px;
+    min-width: none;
+    max-width: none;
+    text-align: center;
   }
-}
+
+  .about-me {
+    flex-direction: column;
+    border-right: none;
+  }
+  .my-work {
+    flex-direction: column;
+  }
+
+  .image-grid {
+    width: 100%;
+  }
+  .contact {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .contact-info a {
+    font-size: 12px;
+  }
+
+  
