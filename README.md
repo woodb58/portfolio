@@ -16,7 +16,7 @@ Challenge 2 Advanced CSS Challenge: Professional Portfolio
 
 [Site Link] https://woodb58.github.io/portfolio/
 
-![Portfolio Layout]
+![Portfolio Layout](./assets/images/portfolio-screenshot.png)
 
 ### Credits
 Font Awesome Icons contained in contact section
