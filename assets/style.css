@@ -183,7 +183,7 @@ header nav ul li a {
 }
 
 .on-this-day {
-  background-image: url(./images/on-this-day.png);
+  background-image: url("./images/on-this-day.png");
   background-position: center;
   background-repeat: none;
   background-size: cover;
