@@ -13,11 +13,10 @@ Challenge 2 Advanced CSS Challenge: Professional Portfolio
 
 -When I resize the page or view the site on various screens and devices I am presented with a responsive layout that adapts to my viewport
 
-
 [Site Link] https://woodb58.github.io/portfolio/
 
 ![Portfolio Layout](./assets/images/portfolio-screenshot.png)
 
 ### Credits
-Font Awesome Icons contained in contact section
-    -https://fontawesome.com/
+
+Font Awesome Icons contained in contact section -https://fontawesome.com/
