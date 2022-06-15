@@ -188,6 +188,12 @@ header nav ul li a {
   background-repeat: none;
   background-size: cover;
 }
+.c-n-k {
+  background-image: url("./images/c-n-k.png");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
 
 .coming-soon {
   background-image: url("./images/coming-soon2.gif");
